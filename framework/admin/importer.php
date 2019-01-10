@@ -355,7 +355,7 @@ class APP_Importer extends scbAdminPage {
 			if ( isset( $row[ 'attachments' ] ) ) {
 
 				$attachments = explode(',', $row[ 'attachments' ]);
-				if ( empty( $attachments ) ) continue;
+				//if ( empty( $attachments ) ) continue;
 
 				$imported_attachments = array();
 				foreach ( $attachments as $attachment_url ) {
